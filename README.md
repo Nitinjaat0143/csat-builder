@@ -287,7 +287,7 @@ This approach avoids unnecessary component creation and keeps rendering efficien
 
 ---
 
-## Summary
+### Summary
 
 The application follows a clean React component architecture where App.jsx serves as the central state manager and all child components communicate through props and callback functions. This ensures predictable state updates, real-time preview functionality, and maintainable code structure.
 ----
