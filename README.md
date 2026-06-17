@@ -295,6 +295,12 @@ Conditional rendering was used to switch between:
 This approach avoids unnecessary component creation and keeps rendering efficient.
 
 ---
+## Screenshots
+Initial - <img width="1847" height="872" alt="image" src="https://github.com/user-attachments/assets/aeab0105-b2ba-4744-a1d6-cc13b35c3c82" />
+Feedback,Content - <img width="1843" height="865" alt="image" src="https://github.com/user-attachments/assets/88ea9313-d7b3-43a2-b310-773bae1e687d" />
+Thank You - <img width="1833" height="872" alt="image" src="https://github.com/user-attachments/assets/1f8b3d0e-c6af-4016-9057-0e9aecb2f0dd" />
+Styling - <img width="1847" height="877" alt="image" src="https://github.com/user-attachments/assets/3399afe2-db64-408a-b775-9975794c1885" />
+
 
 ### Summary
 
