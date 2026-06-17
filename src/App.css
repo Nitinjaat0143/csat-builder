@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.phone {
+  width: 320px;
+  min-height: 600px;
+  border: 12px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  background: white;
+}
+
+.phone h2 {
+  margin-bottom: 10px;
+}
+
+.phone p {
+  margin-bottom: 20px;
+}
+
+@media(max-width:768px){
+
+  .app{
+    flex-direction:column;
+  }
+
+  .left{
+    border-right:none;
+  }
+
+}
