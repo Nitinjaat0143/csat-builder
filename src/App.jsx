@@ -3,6 +3,7 @@ import "./App.css";
 import MobilePreview from "./components/MobilePreview";
 import ContentPanel from "./components/ContentPanel";
 import StylingPanel from "./components/StylingPanel";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [campaign, setCampaign] = useState({
@@ -125,6 +126,7 @@ function App() {
 </div>
   
 
+    <Analytics />
   </div>
 );
 }
